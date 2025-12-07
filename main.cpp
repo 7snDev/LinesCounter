@@ -2,6 +2,7 @@
 #include <filesystem>
 #include <fstream>
 #include <vector>
+#include <string>
 #include <unordered_map>
 #include <thread>
 #include <mutex>
@@ -129,3 +130,4 @@ int main() {
     std::cout << "%" << p.first << " : " << (percent * 100) << " | " << p.second << " line" << std::endl;
   }
 }
+
